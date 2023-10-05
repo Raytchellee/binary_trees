@@ -36,7 +36,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (0);
 	first = get_height(tree->left);
 	second = get_height(tree->right);
-	third = binary_tree_is_full(tree)
+	third = binary_tree_is_full(tree);
 
 	return ((first == second) && third);
 }
