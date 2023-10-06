@@ -52,7 +52,7 @@ int check_avl(const binary_tree_t *tree, int min, int max)
 }
 
 /**
- * int binary_tree_is_avl - checks avl
+ * binary_tree_is_avl - checks avl
  * @tree: root node
  * Return: 1 or 0
  */
