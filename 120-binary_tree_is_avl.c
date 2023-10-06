@@ -7,9 +7,9 @@
  * Return: none
  */
 
-size_t get_height(const binary_tree_t *tree)
+int get_height(const binary_tree_t *tree)
 {
-	size_t first = 0, second = 0;
+	int first = 0, second = 0;
 
 	if (tree == NULL)
 		return (0);
@@ -32,7 +32,7 @@ size_t get_height(const binary_tree_t *tree)
 
 int check_avl(const binary_tree_t *tree, int min, int max)
 {
-	size_t h1, h2, sub;
+	int h1, h2, sub;
 
 	if (tree != NULL)
 	{
